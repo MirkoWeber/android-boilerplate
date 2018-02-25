@@ -1,6 +1,7 @@
 package uk.co.ribot.androidboilerplate.injection.component;
 
 import dagger.Component;
+import dagger.Provides;
 import uk.co.ribot.androidboilerplate.injection.ConfigPersistent;
 import uk.co.ribot.androidboilerplate.injection.module.ActivityModule;
 import uk.co.ribot.androidboilerplate.ui.base.BaseActivity;
@@ -15,7 +16,6 @@ import uk.co.ribot.androidboilerplate.ui.base.BaseActivity;
 @ConfigPersistent
 @Component(dependencies = ApplicationComponent.class)
 public interface ConfigPersistentComponent {
-
     ActivityComponent activityComponent(ActivityModule activityModule);
 
 }

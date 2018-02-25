@@ -3,6 +3,9 @@ package uk.co.ribot.androidboilerplate.injection.module;
 import android.app.Application;
 import android.content.Context;
 
+import com.bumptech.glide.Glide;
+import com.bumptech.glide.RequestManager;
+
 import javax.inject.Singleton;
 
 import dagger.Module;

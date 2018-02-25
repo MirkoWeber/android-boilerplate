@@ -9,4 +9,10 @@
 
     <string name="empty_ribots">There aren\'t any ribots</string>
     <string name="error_loading_ribots">There was a problem loading the ribots</string>
+
+    <string name="email_prefix">E-Mail: </string>
+    <string name="birthdate_prefix">Birthdate: </string>
+    <string name="bio_prefix">Biography: </string>
+
+    <string name="email_send_intent_title">Send E-Mail: </string>
 </resources>
